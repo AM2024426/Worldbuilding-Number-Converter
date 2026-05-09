@@ -13,6 +13,7 @@ if (octalval>=100):  #if greater than 100, add 111
 else:
     if (decimal<10):  #if greater than 10, add 11, less than 10, add 1
        octaladdedval= constfactor + octalval
-    else: 
-       octaladdedval = constfactor2 + octalval
        print(octaladdedval)
+    else: 
+      octaladdedval = constfactor2 + octalval
+      print(octaladdedval)
